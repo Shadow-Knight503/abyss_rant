@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 
 @Injectable()
 export class CommentService {
-  findUserComments(userId: number) {
-    return 'Comments';
+  findUserComments(userId: string) {
+    return 'This is the user comment';
   }
 }
